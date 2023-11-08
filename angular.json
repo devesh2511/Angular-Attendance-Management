@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "student-management-app": {
+    "studAngular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/student-management-app",
+            "outputPath": "dist/studAngular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "student-management-app:build:production"
+              "browserTarget": "studAngular:build:production"
             },
             "development": {
-              "browserTarget": "student-management-app:build:development"
+              "browserTarget": "studAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "student-management-app:build"
+            "browserTarget": "studAngular:build"
           }
         },
         "test": {
@@ -105,7 +105,7 @@
       }
     }
   },
-  "defaultProject": "student-management-app",
+  "defaultProject": "studAngular",
   "cli": {
     "analytics": false
   }
