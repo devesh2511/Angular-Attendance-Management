@@ -111,7 +111,7 @@
       }
     }
   },
-  "defaultProject": "studAngular",
+
   "cli": {
     "analytics": false
   }
