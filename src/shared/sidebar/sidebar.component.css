@@ -1,0 +1,19 @@
+.my-sidebar {
+    height: 100vh;
+}
+
+.styl {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bg-gradient-primary {
+    background-color: #2f3e46;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 100%;
+}

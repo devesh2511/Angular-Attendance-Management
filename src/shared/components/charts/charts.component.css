@@ -1,0 +1,15 @@
+* {
+    background-color: white;
+}
+
+ngx-charts-bar-vertical {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mt-5{
+    box-shadow: #d8f3dc 0px 0px 15px 1px;
+}
