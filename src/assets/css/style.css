@@ -11660,10 +11660,6 @@ a:focus {
     display: none
 }
 
-.sidebar hr.sidebar-divider {
-    margin: 0rem 1rem 0rem 1rem
-}
-
 .sidebar .sidebar-heading {
     text-align: center;
     padding: 0 1rem;
@@ -11846,9 +11842,7 @@ a:focus {
     color: #6e707e
 }
 
-.sidebar-light hr.sidebar-divider {
-    border-top: 1px solid #eaecf4
-}
+
 
 .sidebar-light .sidebar-heading {
     color: #b7b9cc
@@ -11902,9 +11896,6 @@ a:focus {
     color: #fff
 }
 
-.sidebar-dark hr.sidebar-divider {
-    border-top: 1px solid rgba(255, 255, 255, .15)
-}
 
 .sidebar-dark .sidebar-heading {
     color: rgba(255, 255, 255, .4)

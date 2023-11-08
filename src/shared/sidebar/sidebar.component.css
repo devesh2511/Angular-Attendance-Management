@@ -1904,3 +1904,13 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
     width: 100%
 }
+
+.sidebar hr.sidebar-divider {
+    margin: 0rem 1rem 0rem 1rem
+}
+.sidebar-light hr.sidebar-divider {
+    border-top: 1px solid #eaecf4
+}
+.sidebar-dark hr.sidebar-divider {
+    border-top: 1px solid rgba(255, 255, 255, .15)
+}
