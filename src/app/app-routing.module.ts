@@ -5,7 +5,6 @@ import { ChartsComponent } from '../shared/components/charts/charts.component';
 import { DashboardComponent } from '../shared/components/dashboard/dashboard.component';
 import { EditStudentComponent } from '../shared/components/edit-student/edit-student.component';
 import { MarkAttendanceComponent } from '../shared/components/mark-attendance/mark-attendance.component';
-// import { NavbarComponent } from '../shared/navbar/navbar.component';
 import { ViewAttendanceComponent } from '../shared/components/view-attendance/view-attendance.component';
 
 const routes: Routes = [
