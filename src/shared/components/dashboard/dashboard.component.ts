@@ -6,7 +6,6 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 
 
 
-
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -20,7 +19,7 @@ export class DashboardComponent implements OnInit {
   displayList: Array<Student> = [];
   studentAttendance: Array<Attendance> = []
   dates: Array<Date> = []
-  paginator: MatPaginator | undefined;
+  // paginator: MatPaginator | undefined;
   pageEvent: PageEvent = {
     length: 5,
     pageIndex: 0,

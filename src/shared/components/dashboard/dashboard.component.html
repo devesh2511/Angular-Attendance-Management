@@ -4,7 +4,7 @@
     <div class="card shadow mt-4 mb-4">
         <div class="card-header py-3">
             <div class="d-sm-flex align-items-center justify-content-between mt-4">
-                <h1 class="h3 mb-0 text-gray-800">Student List</h1>
+                <h1 class="h3 mb-0 text-gray-800">Students List</h1>
                 <a [routerLink]="['/addstudent']" class="d-sm-inline-block btn btn-sm text-dark btn-warning shadow-sm">
                     <i class="fa fa-add fa-sm text-dark-50"></i>Add Student</a>
             </div>
@@ -50,10 +50,10 @@
                         </tbody>
 
                     </table>
+                    <mat-paginator [length]="pageLength" [pageSizeOptions]="pageSizes" [pageSize]="5"
+                        [showFirstLastButtons]="true" (page)="handlePageEvent($event)">
+                    </mat-paginator>
                 </div>
-                <mat-paginator [length]="pageLength" [pageSizeOptions]="pageSizes" [pageSize]="5"
-                    [showFirstLastButtons]="true" (page)="handlePageEvent($event)">
-                </mat-paginator>
             </div>
         </div>
     </div>
